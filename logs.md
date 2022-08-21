@@ -19,3 +19,6 @@ export ETHERSCAN_API_KEY=<ehterscan api key>
 export ETH_PK=<wallet private key>
 ```
 5. source or open new zsh shell, then test, deploy, and verify following readme
+
+ether.js
+1. setup repo following readme
