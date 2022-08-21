@@ -1,0 +1,129 @@
+{
+  "compiler": {
+    "version": "0.8.16+commit.07a7930e"
+  },
+  "language": "Solidity",
+  "output": {
+    "abi": [
+      {
+        "inputs": [],
+        "name": "IS_SCRIPT",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "run",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "setUp",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "vm",
+        "outputs": [
+          {
+            "internalType": "contract Vm",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ],
+    "devdoc": {
+      "kind": "dev",
+      "methods": {},
+      "version": 1
+    },
+    "userdoc": {
+      "kind": "user",
+      "methods": {},
+      "version": 1
+    }
+  },
+  "settings": {
+    "compilationTarget": {
+      "script/Deploy.s.sol": "DeployScript"
+    },
+    "evmVersion": "london",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [
+      ":ds-test/=lib/forge-std/lib/ds-test/src/",
+      ":forge-std/=lib/forge-std/src/"
+    ]
+  },
+  "sources": {
+    "lib/forge-std/src/Script.sol": {
+      "keccak256": "0x4424dbcb8f5b741475445726f87408fcd89951fad973bec2ca442ee157f910e7",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://5b0b9f6dfb69245d8f888558ae82bf1d2cdeace46201444fe4b2e6a5283f944a",
+        "dweb:/ipfs/QmWFSKeFEZngNcwNn7A84EF7pASo5qe6r5oK24r9Kwca7Z"
+      ]
+    },
+    "lib/forge-std/src/Vm.sol": {
+      "keccak256": "0x26c759a067f916d4067922314efca3f5e27ebbe0de90929c122987619773a5b6",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://1f473d63d375122a745a37affb30ca0aebbdc2b244f77b34420cca778c241eff",
+        "dweb:/ipfs/QmX1KXN53oKncpJWKH5zuQqgN21JvJV6iUpuirg2j3qAEY"
+      ]
+    },
+    "lib/forge-std/src/console.sol": {
+      "keccak256": "0x91d5413c2434ca58fd278b6e1e79fd98d10c83931cc2596a6038eee4daeb34ba",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://91ccea707361e48b9b7a161fe81f496b9932bc471e9c4e4e1e9c283f2453cc70",
+        "dweb:/ipfs/QmcB66sZhQ6Kz7MUHcLE78YXRUZxoZnnxZjN6yATsbB2ec"
+      ]
+    },
+    "lib/forge-std/src/console2.sol": {
+      "keccak256": "0xbeb823fcdb356244a83aaccdf828ad019ecc1ffaa3dff18e624fc6d5714ea671",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://4cbe9400340e5f9ec55e2aff3bad1c15fa3afbbe37e80800e6f3fed2ad26854f",
+        "dweb:/ipfs/QmdJBABsuXkvWxVzEyGXsTE3vyfBPXDdw5xvvtUz3JeoYW"
+      ]
+    },
+    "script/Deploy.s.sol": {
+      "keccak256": "0x9564f5c1f6a00e31674aaaf572431775d317cb2721b3df9fe20b4b3314d8ccc0",
+      "license": "UNLICENSED",
+      "urls": [
+        "bzz-raw://561d6bba6af87b79d8b3b6d713686003b8113e9d54e2524b9aa8a9c97af1debf",
+        "dweb:/ipfs/QmYhFDDqa8EaXEP4oBch5zVfHHsccGJptMfgBiFEte8tD2"
+      ]
+    },
+    "src/Counter.sol": {
+      "keccak256": "0x09277f949d59a9521708c870dc39c2c434ad8f86a5472efda6a732ef728c0053",
+      "license": "UNLICENSED",
+      "urls": [
+        "bzz-raw://94cd5258357da018bf911aeda60ed9f5b130dce27445669ee200313cd3389200",
+        "dweb:/ipfs/QmNbEfWAqXCtfQpk6u7TpGa8sTHXFLpUz7uebz2FVbchSC"
+      ]
+    }
+  },
+  "version": 1
+}

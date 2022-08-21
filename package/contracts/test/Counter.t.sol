@@ -20,4 +20,10 @@ contract CounterTest is Test {
         counter.setNumber(x);
         assertEq(counter.number(), x);
     }
+
+    function testOverflow() public {
+        counter.setNumber(2**256 - 1);
+        vm.expectRevert(stdError.arithmeticError);
+        counter.increment();
+    }
 }

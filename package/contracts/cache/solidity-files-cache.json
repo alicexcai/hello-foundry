@@ -264,10 +264,10 @@
         }
       }
     },
-    "script/Counter.s.sol": {
-      "lastModificationDate": 1661106455265,
-      "contentHash": "0705c52104730a78aef4aa6694175c81",
-      "sourceName": "script/Counter.s.sol",
+    "script/Deploy.s.sol": {
+      "lastModificationDate": 1661108549301,
+      "contentHash": "ecfd9883282a0a6df2fe9843380df3f5",
+      "sourceName": "script/Deploy.s.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -299,17 +299,18 @@
         "lib/forge-std/src/Script.sol",
         "lib/forge-std/src/Vm.sol",
         "lib/forge-std/src/console.sol",
-        "lib/forge-std/src/console2.sol"
+        "lib/forge-std/src/console2.sol",
+        "src/Counter.sol"
       ],
       "versionRequirement": "^0.8.13",
       "artifacts": {
-        "CounterScript": {
-          "0.8.16+commit.07a7930e.Darwin.appleclang": "Counter.s.sol/CounterScript.json"
+        "DeployScript": {
+          "0.8.16+commit.07a7930e.Darwin.appleclang": "Deploy.s.sol/DeployScript.json"
         }
       }
     },
     "src/Counter.sol": {
-      "lastModificationDate": 1661106455265,
+      "lastModificationDate": 1661107537527,
       "contentHash": "ae6c800a2b4c57768024d6e9423d39e8",
       "sourceName": "src/Counter.sol",
       "solcConfig": {
@@ -348,8 +349,8 @@
       }
     },
     "test/Counter.t.sol": {
-      "lastModificationDate": 1661106455265,
-      "contentHash": "5122f4f87ee8fbf9a2468a4c9c780b6a",
+      "lastModificationDate": 1661108328255,
+      "contentHash": "451324e453ab1b67acd6dfc08d499614",
       "sourceName": "test/Counter.t.sol",
       "solcConfig": {
         "settings": {

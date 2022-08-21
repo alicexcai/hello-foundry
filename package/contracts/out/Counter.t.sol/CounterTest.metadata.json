@@ -436,6 +436,13 @@
         "type": "function"
       },
       {
+        "inputs": [],
+        "name": "testOverflow",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
         "inputs": [
           {
             "internalType": "uint256",
@@ -549,11 +556,11 @@
       ]
     },
     "test/Counter.t.sol": {
-      "keccak256": "0x76bdc40734abcf9acbe5d56422e22662bc218e7d410264f3de6a823036be6a6d",
+      "keccak256": "0xb1fe42b7bfcf38a3b3be085abb6a71f1d4ed3327cc1c513e62deca3903fb5337",
       "license": "UNLICENSED",
       "urls": [
-        "bzz-raw://27118e74e69a15c903cb826430175f337a9ab5cd1bb55a767ae9439e860052bd",
-        "dweb:/ipfs/QmfNHmcHCDN2eDQpbaDTSRyU4uhcZjpLEdvrudZRLY5knF"
+        "bzz-raw://4e580e17b7665f311492debe8870f2c45982a9d809e11e3c01a42eb056b06b73",
+        "dweb:/ipfs/QmS4xLx9qFVYcxsvgERhizJw34ZV5T62YPWeCE1KP3zryP"
       ]
     }
   },

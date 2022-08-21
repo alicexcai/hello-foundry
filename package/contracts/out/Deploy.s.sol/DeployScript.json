@@ -1,0 +1,340 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "IS_SCRIPT",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "run",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "setUp",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "vm",
+      "outputs": [
+        {
+          "internalType": "contract Vm",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x60806040526000805460ff1916600117905534801561001d57600080fd5b506102998061002d6000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c80630a9254e4146100515780633a76846314610053578063c04062261461008b578063f8ccbf4714610093575b600080fd5b005b61006e737109709ecfa91a80626ff3989d68f67f5b1dd12d81565b6040516001600160a01b0390911681526020015b60405180910390f35b6100516100b0565b6000546100a09060ff1681565b6040519015158152602001610082565b604080516302bf260160e61b81529051737109709ecfa91a80626ff3989d68f67f5b1dd12d9163afc9804091600480830192600092919082900301818387803b1580156100fc57600080fd5b505af1158015610110573d6000803e3d6000fd5b5050505060405161012090610140565b604051809103906000f08015801561013c573d6000803e3d6000fd5b5050565b6101168061014e8339019056fe608060405234801561001057600080fd5b5060f78061001f6000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80633fb5c1cb1460415780638381f58a146053578063d09de08a14606d575b600080fd5b6051604c3660046083565b600055565b005b605b60005481565b60405190815260200160405180910390f35b6051600080549080607c83609b565b9190505550565b600060208284031215609457600080fd5b5035919050565b60006001820160ba57634e487b7160e01b600052601160045260246000fd5b506001019056fea2646970667358221220f4a9b22e7a2d64c24355b4e7a6f8c62115ca728f26fc2a1e98e364ee91f794fa64736f6c63430008100033a26469706673582212209f2fdd0a0fdf628a2e0d946f51cb139489a7b51f86b7c75926189d59f527c77364736f6c63430008100033",
+    "sourceMap": "126:149:4:-:0;;;165:28:0;;;-1:-1:-1;;165:28:0;189:4;165:28;;;126:149:4;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c80630a9254e4146100515780633a76846314610053578063c04062261461008b578063f8ccbf4714610093575b600080fd5b005b61006e737109709ecfa91a80626ff3989d68f67f5b1dd12d81565b6040516001600160a01b0390911681526020015b60405180910390f35b6100516100b0565b6000546100a09060ff1681565b6040519015158152602001610082565b604080516302bf260160e61b81529051737109709ecfa91a80626ff3989d68f67f5b1dd12d9163afc9804091600480830192600092919082900301818387803b1580156100fc57600080fd5b505af1158015610110573d6000803e3d6000fd5b5050505060405161012090610140565b604051809103906000f08015801561013c573d6000803e3d6000fd5b5050565b6101168061014e8339019056fe608060405234801561001057600080fd5b5060f78061001f6000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80633fb5c1cb1460415780638381f58a146053578063d09de08a14606d575b600080fd5b6051604c3660046083565b600055565b005b605b60005481565b60405190815260200160405180910390f35b6051600080549080607c83609b565b9190505550565b600060208284031215609457600080fd5b5035919050565b60006001820160ba57634e487b7160e01b600052601160045260246000fd5b506001019056fea2646970667358221220f4a9b22e7a2d64c24355b4e7a6f8c62115ca728f26fc2a1e98e364ee91f794fa64736f6c63430008100033a26469706673582212209f2fdd0a0fdf628a2e0d946f51cb139489a7b51f86b7c75926189d59f527c77364736f6c63430008100033",
+    "sourceMap": "126:149:4:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;164:26;;316:38:0;;245:64;316:38;;;;;-1:-1:-1;;;;;188:32:6;;;170:51;;158:2;143:18;316:38:0;;;;;;;;196:77:4;;;:::i;165:28:0:-;;;;;;;;;;;;397:14:6;;390:22;372:41;;360:2;345:18;165:28:0;232:187:6;196:77:4;228:14;;;-1:-1:-1;;;228:14:4;;;;245:64:0;;228:12:4;;:14;;;;;269:37:0;;228:14:4;;;;;;;269:37:0;245:64;228:14:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;252:13;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;196:77::o;-1:-1:-1:-;;;;;;;;:::o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "IS_SCRIPT()": "f8ccbf47",
+    "run()": "c0406226",
+    "setUp()": "0a9254e4",
+    "vm()": "3a768463"
+  },
+  "ast": {
+    "absolutePath": "script/Deploy.s.sol",
+    "id": 17023,
+    "exportedSymbols": {
+      "Counter": [
+        17044
+      ],
+      "DeployScript": [
+        17022
+      ],
+      "Script": [
+        235
+      ],
+      "Vm": [
+        869
+      ],
+      "console": [
+        8933
+      ],
+      "console2": [
+        16997
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "39:237:4",
+    "nodes": [
+      {
+        "id": 16999,
+        "nodeType": "PragmaDirective",
+        "src": "39:24:4",
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".13"
+        ]
+      },
+      {
+        "id": 17000,
+        "nodeType": "ImportDirective",
+        "src": "65:30:4",
+        "absolutePath": "lib/forge-std/src/Script.sol",
+        "file": "forge-std/Script.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 17023,
+        "sourceUnit": 236,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 17001,
+        "nodeType": "ImportDirective",
+        "src": "96:28:4",
+        "absolutePath": "src/Counter.sol",
+        "file": "../src/Counter.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 17023,
+        "sourceUnit": 17045,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 17022,
+        "nodeType": "ContractDefinition",
+        "src": "126:149:4",
+        "nodes": [
+          {
+            "id": 17007,
+            "nodeType": "FunctionDefinition",
+            "src": "164:26:4",
+            "body": {
+              "id": 17006,
+              "nodeType": "Block",
+              "src": "188:2:4",
+              "statements": []
+            },
+            "functionSelector": "0a9254e4",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setUp",
+            "nameLocation": "173:5:4",
+            "parameters": {
+              "id": 17004,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "178:2:4"
+            },
+            "returnParameters": {
+              "id": 17005,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "188:0:4"
+            },
+            "scope": 17022,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 17021,
+            "nodeType": "FunctionDefinition",
+            "src": "196:77:4",
+            "body": {
+              "id": 17020,
+              "nodeType": "Block",
+              "src": "218:55:4",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 17010,
+                        "name": "vm",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 30,
+                        "src": "228:2:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Vm_$869",
+                          "typeString": "contract Vm"
+                        }
+                      },
+                      "id": 17012,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "231:9:4",
+                      "memberName": "broadcast",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 613,
+                      "src": "228:12:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$__$returns$__$",
+                        "typeString": "function () external"
+                      }
+                    },
+                    "id": 17013,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "228:14:4",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 17014,
+                  "nodeType": "ExpressionStatement",
+                  "src": "228:14:4"
+                },
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "id": 17017,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "NewExpression",
+                      "src": "252:11:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_Counter_$17044_$",
+                        "typeString": "function () returns (contract Counter)"
+                      },
+                      "typeName": {
+                        "id": 17016,
+                        "nodeType": "UserDefinedTypeName",
+                        "pathNode": {
+                          "id": 17015,
+                          "name": "Counter",
+                          "nameLocations": [
+                            "256:7:4"
+                          ],
+                          "nodeType": "IdentifierPath",
+                          "referencedDeclaration": 17044,
+                          "src": "256:7:4"
+                        },
+                        "referencedDeclaration": 17044,
+                        "src": "256:7:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Counter_$17044",
+                          "typeString": "contract Counter"
+                        }
+                      }
+                    },
+                    "id": 17018,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "252:13:4",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_Counter_$17044",
+                      "typeString": "contract Counter"
+                    }
+                  },
+                  "id": 17019,
+                  "nodeType": "ExpressionStatement",
+                  "src": "252:13:4"
+                }
+              ]
+            },
+            "functionSelector": "c0406226",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "run",
+            "nameLocation": "205:3:4",
+            "parameters": {
+              "id": 17008,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "208:2:4"
+            },
+            "returnParameters": {
+              "id": 17009,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "218:0:4"
+            },
+            "scope": 17022,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 17002,
+              "name": "Script",
+              "nameLocations": [
+                "151:6:4"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 235,
+              "src": "151:6:4"
+            },
+            "id": 17003,
+            "nodeType": "InheritanceSpecifier",
+            "src": "151:6:4"
+          }
+        ],
+        "canonicalName": "DeployScript",
+        "contractDependencies": [
+          17044
+        ],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          17022,
+          235
+        ],
+        "name": "DeployScript",
+        "nameLocation": "135:12:4",
+        "scope": 17023,
+        "usedErrors": []
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 4
+}
